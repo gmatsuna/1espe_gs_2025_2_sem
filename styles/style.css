@@ -47,6 +47,20 @@ nav ul {
     display: flex;
 }
 
+#materia__texto {
+    padding-top: 15px;
+    padding: 0 25px;
+    h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    P {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
 #materia__img img {
     width: 600px;
 }
