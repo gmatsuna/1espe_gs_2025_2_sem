@@ -4,7 +4,57 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100vw;
-    height: 100vh;
+header {
+    background: #62C82E;
+    width: 100%;
+    box-shadow: 1px 1px 1px #00000070;
+    /* position: fixed;
+    top: 0; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+
+    li {
+        padding: 5px 0;
+        list-style: none;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 22px;
+            display: block;
+            padding: 10px 25px;
+        }
+    }
+}
+
+#banner {
+    border: 2px solid #ff0000;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+#banner img {
+    width: 250px;
+}
+
+#materia {
+    border: 2px solid #ff0000;
+    display: flex;
+}
+
+#materia__img img {
+    width: 600px;
+}
+
+#tecnologias {
+    border: 2px solid #ff0000;
+}
+
+#resultados {
+    border: 2px solid #ff0000;
 }
