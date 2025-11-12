@@ -163,3 +163,12 @@ main {
         margin-bottom: 25px;
     }
 }
+
+footer {
+    border: 2px solid red;
+    background-color: #E6E9EC;
+    color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
