@@ -326,20 +326,20 @@ body {
   max-width: var(--max-width);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* espaça os itens nas 3 colunas */
-  gap: 36px 30px; /* vertical gap / horizontal gap */
+  justify-content: space-between;
+  gap: 36px 30px;
   padding: 0 12px;
   box-sizing: border-box;
 }
 
 .tec-item {
-  flex: 0 1 calc(33.333% - 30px); /* 3 colunas com espaço para gaps */
+  flex: 0 1 calc(33.333% - 30px); 
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   color: #fff;
-  min-width: 260px; /* evita itens muito estreitos */
+  min-width: 260px;
   box-sizing: border-box;
   padding: 0 8px;
 }
