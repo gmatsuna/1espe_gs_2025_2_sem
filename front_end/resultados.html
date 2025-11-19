@@ -1,18 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <script defer src="./scripts/include.js"></script>
-    <title>Resultados - AgroTech</title>
-</head>
+<div include-html="head.html"></div>
 
 <body>
     <div include-html="header.html"></div>
-    <header id="banner" class="banner">
+    <header class="banner">
         <div class="banner-content">
             <h2>Resultados da Transformação Tecnológica</h2>
             <p>Impactos reais da modernização no agronegócio</p>
@@ -25,7 +18,7 @@
             <h1>Resultados</h1>
             <div id="resultados__box">
                 <div class="resultados__itens">
-                    <img src="../img/precisao.jpg" alt="Agricultura de Precisão">
+                    <img src="./img/precisao.jpg" alt="Agricultura de Precisão">
                     <div class="resultados__texto" id="precisao">
                         <h3>Agricultura de Precisão</h3>
                         <p>Com o uso de GPS, sensores de solo e drones, os produtores conseguem mapear suas lavouras com
@@ -52,11 +45,11 @@
                             desloca sozinha sob o sol da manhã. O foco está nos rastros retos e uniformes deixados no
                             solo</p>
                     </div>
-                    <img src="../img/maquinas.jpg" alt="Máquinas Autônomas e Inteligentes">
+                    <img src="./img/maquinas.jpg" alt="Máquinas Autônomas e Inteligentes">
 
                 </div>
                 <div class="resultados__itens">
-                    <img src="../img/irigacao.jpg" alt="Irrigação Inteligente e Sustentável">
+                    <img src="./img/irrigacao.jpg" alt="Irrigação Inteligente e Sustentável">
                     <div class="resultados__texto" id="irrigacao">
                         <h3>Irrigação Inteligente e Sustentável</h3>
                         <p>Sistemas de irrigação conectados à IoT e integrados a estações meteorológicas fazem o
@@ -76,6 +69,7 @@
 
     </main>
     <div include-html="footer.html"></div>
+    <script src="./scripts/include.js"></script>
 </body>
 
 </html>

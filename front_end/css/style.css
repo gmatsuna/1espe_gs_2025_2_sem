@@ -54,7 +54,7 @@ body {
 }
 
 /* BANNER */
-#banner {
+.banner {
     width: 100%;
     height: 500px;
     background-image: url("../img/banner.png");
@@ -68,7 +68,7 @@ body {
     margin-top: 65px;
 }
 
-#banner::before {
+.banner::before {
     content: "";
     position: absolute;
     top: 0;
