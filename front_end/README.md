@@ -120,12 +120,13 @@ Arquivo `integrantes.txt` contém:
 
 1. Baixe ou clone o repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/agrotech.git
+   git clone https://github.com/gmatsuna/1espe_gs_2025_2_sem
 
-2. Abra o arquivo principal:
-index.html
+2. Navegue até a pasta front_end
 
-3. Navegue pelo menu superior
+3. Abra o arquivo principal index.html com o live server
+
+4. Navegue pelo menu superior
 
 Simples, rápido e intuitivo.
 
