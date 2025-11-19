@@ -1,5 +1,9 @@
 # 1esps_cp3_front_end
 ## GS - Front End.  - Tecnologia no Mercado de Trabalho  
+## 👥 Integrantes
+
+Arquivo `integrantes.txt` contém:
+
 - Gilberto Hideaki Matsunaga        **RM** 568191  
 - Diogo Henrique Alves Magalhães    **RM** 568541  
 - Geovanna Caroline Lima Santos     **RM** 567754  
@@ -106,16 +110,6 @@ Os elementos se reorganizam automaticamente usando **Flexbox com wrap**, garanti
 
 ---
 
-## 👥 Integrantes
-
-Arquivo `integrantes.txt` contém:
-
-- Gilberto Hideaki Matsunaga – RM 568191  
-- Diogo Henrique Alves Magalhães – RM 568541  
-- Geovanna Caroline Lima Santos – RM 567754  
-
----
-
 ## 📌 Como executar o projeto
 
 1. Baixe ou clone o repositório:
@@ -124,7 +118,7 @@ Arquivo `integrantes.txt` contém:
 
 2. Navegue até a pasta front_end
 
-3. Abra o arquivo principal index.html com o live server ou em um navegador
+3. Abra o arquivo principal **index.html** com o live server ou em um navegador
 
 4. Navegue pelo menu superior
 
